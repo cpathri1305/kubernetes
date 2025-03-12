@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+    name: myname
+spec:
+  containers:
+    - name: mycont
+      image: ngnix
+      
+
